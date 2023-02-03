@@ -3,6 +3,7 @@
   width: 5vw;
   margin: 0 0 0 15vw;
   display: inline-flex;
+  max-width: 4em;
 }
 
 .topstyle {
@@ -11,8 +12,8 @@
   background-color: rgba(0,149,159,1);
 }
 
-html {
-  margin: -1%;
+body {
+  margin: 0;
 }
 
 #nav {
@@ -73,3 +74,22 @@ button {
 button:hover {
   color: #f29e23;
 }
+
+h1 {
+  background-image: url("images/background.jpg");
+  background-size: 100%;
+  background-position: bottom;
+  text-align: center;
+  height: 10em;
+  color: white;
+  font-size: 3vw;
+  padding-top: 0.6em;
+  margin: 0;
+
+}
+
+p {
+  color: tomato;
+  font-size: 2em;
+}
+
