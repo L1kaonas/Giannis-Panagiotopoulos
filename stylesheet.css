@@ -1,6 +1,6 @@
 #logo {
-  height: 5vh;
-  width: 5vw;
+  height: 4em;
+  width: 4em;
   margin: 0 0 0 15vw;
   display: inline-flex;
   max-width: 4em;
@@ -14,7 +14,6 @@
 
 body {
   margin: 0;
-
 }
 
 #nav {
@@ -22,27 +21,25 @@ body {
   list-style-type: none;
   justify-content: flex-end;
   width: 60%;
-  font-family: "Century Gothic","Arial Black";
+  font-family: "Montserrat Classic"," Barlow","Rajdhani";
   font-weight: bolder;
   font-size: 1.5em;
   color: black;
   padding-left: 0;
   justify-content: space-space-between;
   flex-wrap: wrap;
-
 }
 
 .header {
   display: flex;
   vertical-align: middle;
   justify-content: space-between;
-
-
 }
 
 li {
   margin: 0 5%;
 }
+
 a:link {
       text-decoration: none;
 }
@@ -86,7 +83,6 @@ button:hover {
   padding-top: 0.6em;
   margin: 0;
   text-shadow: 2px 2px 4px #000000;
-
 }
 
 p {
@@ -98,8 +94,7 @@ p {
   background-image: url("images/background.jpg");
   background-size: cover;
   background-position: center;
-  padding:0em;
-
+  padding:10em;
 }
 
 form {
@@ -108,7 +103,7 @@ form {
         padding: 20px;
         border: 1px solid #ccc;
         border-radius: 5px;
-        font-family: "Century Gothic","Arial Black";
+        font-family: "Montserrat Classic"," Barlow","Rajdhani";
         font-size: 1.5em;
       }
 
@@ -162,7 +157,7 @@ form {
   }
 footer {
   width: 100%;
-  height:8vh;
+  height:14vh;
   background-color: rgba(0,149,159,1);
   overflow: hidden;
   position: fixed;
@@ -184,7 +179,9 @@ footer {
     }
 
     .social ul li {
-        margin: 5em 7em;
+        margin: 3em;
+        width: 150px;
+        text-align: center;
     }
 
     .telephone-btn {
@@ -200,13 +197,33 @@ footer {
         display: none;
       }
 
+.bioHeader {
+        background-color: rgba(0,149,159,0.1);
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 2em;
+        margin-top: 0;
+        padding-top: 0.5em;
+      }
+
 .bio {
   background-color: rgba(0,149,159,0.1);
-  height: 32.5em;
+  height: 29em;
   font-size: 1.5em;
   text-align: justify;
 }
 
+.bioImage {
+  height: 12em;
+  float: left;
+}
+
 h1 {
   text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+.header li {
+  display: none;
+}
 }
