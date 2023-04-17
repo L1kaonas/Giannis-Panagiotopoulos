@@ -16,6 +16,7 @@ h1 {
 
 #bgim {
   max-height: 55em;
+  display: flex;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -60,9 +61,35 @@ figcaption {
 
 #biotext {
   font-family: "Ubuntu";
-  font-size:large;
+  font-size:1.6em;
+  margin: 0.5em;
+  overflow-y: auto;
 }
 
 #biobdy {
   background-color: rgba(0,149,159,0.1);
+  height: 55em;
+}
+
+#imggian {
+  width: 10%;
+  float: left;
+  margin: 0.5em;
+}
+
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+button {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  height:48px;
+  width: 48px;
+}
+
+.kimeno {
+  padding: 0 10em;
 }
