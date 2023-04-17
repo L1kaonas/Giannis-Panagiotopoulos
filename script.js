@@ -41,15 +41,23 @@ const number = document.querySelector('#telephone-number');
 //   }
 // })
 
-const burger = document.querySelector('.btnburger');
-const secretHead = document.querySelector('#secretHead');
+// const burger = document.querySelector('.btnburger');
+// const secretHead = document.querySelector('#secretHead');
+//
+// burger.addEventListener('click', function() {
+//   if (secretHead.style.display === 'none') {
+//     secretHead.style.display === 'block';
+//   } else if (secretHead.style.display === 'block') {
+//     secretHead.style.display === 'none';
+//   } else {
+//     secretHead.style.display === 'block'
+//   }
+// });
 
-burger.addEventListener('click', function() {
-  if (secretHead.style.display === 'none') {
-    secretHead.style.display === 'block';
-  } else if (secretHead.style.display === 'block') {
-    secretHead.style.display === 'none';
-  } else {
-    secretHead.style.display === 'block'
-  }
-});
+
+const burger = document.getElementById('burger');
+  const navMenu = document.getElementById('navbarNav');
+
+  burger.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
