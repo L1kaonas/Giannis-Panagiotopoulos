@@ -93,3 +93,13 @@ button {
 .kimeno {
   padding: 0 10em;
 }
+
+@media only screen and (max-width: 600px) {
+  .kimeno {
+    display: none;
+  }
+
+  #biotext {
+    font-size: 1.3em;
+  }
+}
